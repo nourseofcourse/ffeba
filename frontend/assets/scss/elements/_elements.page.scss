@@ -1,0 +1,57 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+/**
+ * Simple page-level setup.
+ *
+ * 1. Set the default `font-size` and `line-height` for the entire project,
+ *    sourced from our default variables. The `font-size` is calculated to exist
+ *    in ems, the `line-height` is calculated to exist unitlessly.
+ * 2. Force scrollbars to always be visible to prevent awkward 'jumps' when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * 3. Ensure the page always fills at least the entire height of the viewport.
+ */
+
+@at-root {
+  @-ms-viewport {
+    width: device-width;
+  } // stylelint-disable-line at-rule-no-vendor-prefix
+}
+
+html,
+body,
+#__nuxt,
+#__layout,
+#__layout > div {
+  height: 100%;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -0.1px;
+  color: #0c2b59;
+  font-size: 15px;
+  line-height: 150%;
+  background-color: #fff;
+  overflow-y: scroll; /* [2] */
+  min-height: 100%; /* [3] */
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 55.01px;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

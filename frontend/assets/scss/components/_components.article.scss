@@ -1,0 +1,16 @@
+.article {
+  &__header {
+    text-align: center;
+    padding: {
+      top: 70px;
+      bottom: 70px;
+    }
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: -0.1px;
+    font-family: 'Tiempos Headline';
+    color: #0c2b59;
+  }
+}

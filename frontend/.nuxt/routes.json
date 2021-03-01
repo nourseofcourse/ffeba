@@ -1,0 +1,37 @@
+[
+  {
+    "name": "index2",
+    "path": "/index2",
+    "component": "D:\\\\Work\\\\2021\\\\ffeba\\\\frontend\\\\pages\\\\index2.vue",
+    "chunkName": "pages/index2",
+    "_name": "_73100e40"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "D:\\\\Work\\\\2021\\\\ffeba\\\\frontend\\\\pages\\\\news\\\\index.vue",
+    "chunkName": "pages/news/index",
+    "_name": "_f1c9e2e2"
+  },
+  {
+    "name": "articles-slug",
+    "path": "/articles/:slug?",
+    "component": "D:\\\\Work\\\\2021\\\\ffeba\\\\frontend\\\\pages\\\\articles\\\\_slug.vue",
+    "chunkName": "pages/articles/_slug",
+    "_name": "_4c99539d"
+  },
+  {
+    "name": "categories-slug",
+    "path": "/categories/:slug?",
+    "component": "D:\\\\Work\\\\2021\\\\ffeba\\\\frontend\\\\pages\\\\categories\\\\_slug.vue",
+    "chunkName": "pages/categories/_slug",
+    "_name": "_6157585e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Work\\\\2021\\\\ffeba\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_50b8c8c2"
+  }
+]

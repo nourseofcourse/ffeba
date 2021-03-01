@@ -1,0 +1,35 @@
+.widget {
+  @media (min-width: 768px) {
+    max-width: 340px;
+  }
+  margin: {
+    bottom: 30px;
+    left: auto;
+    right: auto;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__title {
+    color: #0c2b59;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: 'Tiempos Headline';
+    padding: {
+      bottom: 5px;
+    }
+    margin: {
+      bottom: 20px;
+    }
+    border-bottom: 3px solid #e75650;
+  }
+
+  &--search {
+    background-color: #eaedf2;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
